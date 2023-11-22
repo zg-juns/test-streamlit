@@ -22,18 +22,18 @@ expander3 = st.expander('問い合わせ3')
 expander3.write('問い合わせ3の回答')
 
 # プログレスバー
-st.write('▼ プログレスバー ▼')
-'プログレスバーの表示'
-'Start!'
-latest_iteration = st.empty()
-bar = st.progress(0)
+# st.write('▼ プログレスバー ▼')
+# 'プログレスバーの表示'
+# 'Start!'
+# latest_iteration = st.empty()
+# bar = st.progress(0)
 
-for i in range(100):
-  latest_iteration.text(f'Iteration {i+1}')
-  bar.progress(i + 1)
-  time.sleep(0.1)
+# for i in range(100):
+#   latest_iteration.text(f'Iteration {i+1}')
+#   bar.progress(i + 1)
+#   time.sleep(0.1)
 
-'Done!'
+# 'Done!'
 
 
 # ==========
